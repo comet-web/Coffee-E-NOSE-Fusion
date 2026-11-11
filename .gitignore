@@ -1,0 +1,28 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# Data are downloaded from the original sources (see README), never committed
+data/
+
+# Local logs, archives and course documents
+logs/
+*.zip
+*.docx
+
+# Resumable-CV checkpoints (regenerated automatically when an experiment runs)
+results/runs/**/folds/
+
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz

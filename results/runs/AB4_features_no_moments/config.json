@@ -1,0 +1,18 @@
+{
+ "exp": "AB4_features_no_moments",
+ "config": {
+  "ablation": "AB4_features",
+  "setting": "no_moments",
+  "feat_keep": "['baseline', 'max', 'min', 'dG', 'rel_change', 'auc', 'max_slope', 'min_slope', 't_peak', 'final', 'fft1', 'fft2', 'fft3']"
+ },
+ "runtime_s": 26.65,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}

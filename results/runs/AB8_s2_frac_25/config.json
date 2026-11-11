@@ -1,0 +1,18 @@
+{
+ "exp": "AB8_s2_frac_25",
+ "config": {
+  "part": "B2/B3",
+  "s2_frac": "0.25",
+  "n_s2": 62
+ },
+ "runtime_s": 144.16,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}

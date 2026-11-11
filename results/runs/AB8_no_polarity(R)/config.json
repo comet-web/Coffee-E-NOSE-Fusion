@@ -1,0 +1,18 @@
+{
+ "exp": "AB8_no_polarity(R)",
+ "config": {
+  "part": "B2/B3",
+  "polarity": "R",
+  "n_s2": 250
+ },
+ "runtime_s": 266.2,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}

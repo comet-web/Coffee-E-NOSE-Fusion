@@ -1,0 +1,3 @@
+exp,variant,scheme,n_repeats,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,macro_f1_mean,macro_f1_std,rep,epochs
+expA_cnn,A1b|CNN,loo,1,0.9137931034482759,0.0,0.8761904761904762,0.0,0.8830409356725145,0.0,G,150
+expA_cnn,A1b|CNN,rskf5,10,0.8879310344827586,0.03173954315283697,0.8719047619047618,0.030112746899363812,0.8669270114342009,0.035337505473878796,G,150

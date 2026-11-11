@@ -1,0 +1,20 @@
+\begin{tabular}{lccc}
+\toprule
+\textbf{Setting} & \textbf{Low (A1a, LR)} & \textbf{Mid (A2, SVM)} & \textbf{High (A3, LR, stacking)} \\
+\midrule
+Full configuration (G = 1/R, 300 s, 8 sensors) & 91.7 & 86.6 & 81.0 \\
+AB1: without SP-12A & 79.3 & 83.4 & 75.9 \\
+AB1: without TGS-813 & 93.4 & 86.9 & 83.1 \\
+AB1: TGS-800 only & 81.0 & 85.5 & 75.5 \\
+AB1: SP-12A only & 66.6 & 62.1 & 67.9 \\
+AB2: first 30 s (before any odour response) & 85.5 & 62.4 & 60.3 \\
+AB2: first 60 s & 82.8 & 82.8 & 76.6 \\
+AB2: first 120 s & 88.6 & 89.3 & 84.8 \\
+AB3: raw resistance R & 89.7 & 87.2 & 84.1 \\
+AB3: R/R0 (baseline-normalised) & 75.2 & 68.6 & 70.0 \\
+AB3: G/G0 (baseline-normalised) & 73.4 & 69.7 & 61.7 \\
+AB3: z-score per recording (shape only) & 77.9 & 85.9 & 76.9 \\
+AB3: G, differenced (p = 25) & 72.4 & 77.2 & 79.3 \\
+AB4: remove one feature type (range of $\Delta$, points) & n/a & $-$0.3 to +1.7 & $-$2.8 to +3.8 \\
+\bottomrule
+\end{tabular}

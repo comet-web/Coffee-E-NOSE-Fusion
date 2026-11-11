@@ -1,0 +1,5 @@
+system,test_acc1,w,p
+DX-gcms_only (LEAKY),1.0,100,25
+DX-early_concat (LEAKY),1.0,100,25
+"DX-early_concat, label-free GC-MS at test",0.05179282868525897,100,25
+sensor-only same features (valid),0.448207171314741,100,25

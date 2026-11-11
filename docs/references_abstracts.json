@@ -1,0 +1,182 @@
+{
+ "10.3390/s100100036": {
+  "title": "Electronic Nose for Quality Control of Colombian Coffee through the Detection of Defects in “Cup Tests”",
+  "abstract": "Electronic noses (ENs), are used for many applications, but we must emphasize the importance of their application to foodstuffs like coffee. This paper presents a research study about the analysis of Colombian coffee samples for the detection and classification of defects (i.e., using “Cup Tests”), which was conducted at the Almacafé quality control laboratory in Cúcuta, Colombia. The results obtained show that the application of an electronic nose called “A-NOSE”, may be used in the coffee industry for the cupping tests. The results show that e-nose technology can be a useful tool for quality control to evaluate the excellence of the Colombian coffee produced by National Federation of Coffee Growers.",
+  "source": "semanticscholar"
+ },
+ "10.1016/0925-4005(92)80033-T": {
+  "title": "Application of an electronic nose to the discrimination of coffees",
+  "abstract": null,
+  "source": "crossref"
+ },
+ "10.1109/TIM.2002.808038": {
+  "title": "Coffee analysis with an electronic nose",
+  "abstract": "We present the Pico-1 electronic nose based on thin-film semiconductor sensors and an application to the analysis of two groups of seven coffees each. Cups of coffee were also analyzed by two panels of trained judges who assessed quantitative descriptors and a global index (called Hedonic Index, HI) characterizing the sensorial appeal of the coffee. Two tasks are performed by Pico-1. First, for each group, we performed the classification of the seven different coffee types using principal component analysis and multilayer perceptrons for the data analysis. Classification rates were above 90%. Secondly, the panel test descriptors were predicted starting from the measurements performed with Pico-1. The standard deviations for the prediction of the HI are comparable to the uncertainty of the HI itself (0.2 on a 1 to 9 scale for one group of coffees).",
+  "source": "openalex"
+ },
+ "10.1016/s0925-4005(00)00499-8": {
+  "title": "Data preprocessing enhances the classification of different brands of Espresso coffee with an electronic nose",
+  "abstract": "TLDR (auto-generated, not the abstract): Two different ways of preprocessing chemical sensor data are presented as a means to improve the interpretation and the classification ability of an electronic nose (EN) resulting in 100% correct classification with just two sensors.",
+  "source": "semanticscholar"
+ },
+ "10.1016/j.snb.2005.01.019": {
+  "title": "The novel EOS835 electronic nose and data analysis for evaluating coffee ripening",
+  "abstract": "TLDR (auto-generated, not the abstract): An analysis of roasted coffee ripening performed by the novel Electronic Olfactory System EOS 835, manufactured by the Italian company Sacmi Imola s.c.a.r.l., showed that, of the three sensor types constituting the array, the two indium–tin oxide sensors perform better for the application.",
+  "source": "semanticscholar"
+ },
+ "10.1016/j.aca.2015.04.042": {
+  "title": "Data fusion methodologies for food and beverage authentication and quality assessment – A review",
+  "abstract": "TLDR (auto-generated, not the abstract): This review provides a general overview of data fusion strategies that have been used in the field of food and beverage authentication and quality assessment.",
+  "source": "semanticscholar"
+ },
+ "10.1126/science.ade4401": {
+  "title": "A principal odor map unifies diverse tasks in olfactory perception",
+  "abstract": "Mapping molecular structure to odor perception is a key challenge in olfaction. We used graph neural networks to generate a principal odor map (POM) that preserves perceptual relationships and enables odor quality prediction for previously uncharacterized odorants. The model was as reliable as a human in describing odor quality: On a prospective validation set of 400 out-of-sample odorants, the model-generated odor profile more closely matched the trained panel mean than did the median panelist. By applying simple, interpretable, theoretically rooted transformations, the POM outperformed chemoinformatic models on several other odor prediction tasks, indicating that the POM successfully encoded a generalized map of structure-odor relationships. This approach broadly enables odor prediction and paves the way toward digitizing odors. Description Editor’s summary For vision and hearing, there are well-developed maps that relate physical properties such as frequency and wavelength to perceptual properties such as pitch and color. The sense of olfaction does not yet have such a map. Using a graph neural network, Lee et al. developed a principal odor map (POM) that faithfully represents known perceptual hierarchies and distances. This map outperforms previously published models to the point that replacing a trained human’s responses with the model output would improve overall panel description. The POM coordinates were able to predict odor intensity and perceptual similarity, even though these perceptual features were not explicitly part of the model training. These results were used to build a variety of olfactory predictions that outperformed previous feature sets even without fine-tuning. —Peter Stern An odor map achieved human-level odor description performance and generalized to diverse odor-prediction tasks.",
+  "source": "semanticscholar"
+ },
+ "10.1186/1471-2105-7-91": {
+  "title": "Bias in error estimation when using cross-validation for model selection",
+  "abstract": "BackgroundCross-validation (CV) is an effective method for estimating the prediction error of a classifier. Some recent articles have proposed methods for optimizing classifiers by choosing classifier parameter values that minimize the CV error estimate. We have evaluated the validity of using the CV error estimate of the optimized classifier as an estimate of the true error expected on independent data.ResultsWe used CV to optimize the classification parameters for two kinds of classifiers; Shrunken Centroids and Support Vector Machines (SVM). Random training datasets were created, with no difference in the distribution of the features between the two classes. Using these \"null\" datasets, we selected classifier parameter values that minimized the CV error estimate. 10-fold CV was used for Shrunken Centroids while Leave-One-Out-CV (LOOCV) was used for the SVM. Independent test data was created to estimate the true error. With \"null\" and \"non null\" (with differential expression between the classes) data, we also tested a nested CV procedure, where an inner CV loop is used to perform the tuning of the parameters while an outer CV is used to compute an estimate of the error.The CV error estimate for the classifier with the optimal parameters was found to be a substantially biased estimate of the true error that the classifier would incur on independent data. Even though there is no real difference between the two classes for the \"null\" datasets, the CV error estimate for the Shrunken Centroid with the optimal parameters was less than 30% on 18.5% of simulated training data-sets. For SVM with optimal parameters the estimated error rate was less than 30% on 38% of \"null\" data-sets. Performance of the optimized classifiers on the independent test set was no better than chance.The nested CV procedure reduces the bias considerably and gives an estimate of the error that is very close to that obtained on the independent testing set for both Shrunken Centroids and SVM classifiers for \"null\" and \"non-null\" data distributions.ConclusionWe show that using CV to compute an error estimate for a classifier that has itself been tuned using CV gives a significantly biased estimate of the true error. Proper use of CV for estimating true error of a classifier developed using a well defined algorithm requires that all steps of the algorithm, including classifier parameter tuning, be repeated in each CV loop. A nested CV procedure provides an almost unbiased estimate of the true error.",
+  "source": "semanticscholar"
+ },
+ "10.1145/2382577.2382579": {
+  "title": "Leakage in data mining",
+  "abstract": "Deemed “one of the top ten data mining mistakes”, leakage is the introduction of information about the data mining target that should not be legitimately available to mine from. In addition to our own industry experience with real-life projects, controversies around several major public data mining competitions held recently such as the INFORMS 2010 Data Mining Challenge and the IJCNN 2011 Social Network Challenge are evidence that this issue is as relevant today as it has ever been. While acknowledging the importance and prevalence of leakage in both synthetic competitions and real-life data mining projects, existing literature has largely left this idea unexplored. What little has been said turns out not to be broad enough to cover more complex cases of leakage, such as those where the classical independently and identically distributed (i.i.d.) assumption is violated, that have been recently documented. In our new approach, these cases and others are explained by explicitly defining modeling goals and analyzing the broader framework of the data mining problem. The resulting definition enables us to derive general methodology for dealing with the issue. We show that it is possible to avoid leakage with a simple specific approach to data management followed by what we call a learn-predict separation, and present several ways of detecting leakage when the modeler has no control over how the data have been collected. We also offer an alternative point of view on leakage that is based on causal graph modeling concepts.",
+  "source": "crossref"
+ },
+ "10.1038/299352a0": {
+  "title": "Analysis of discrimination mechanisms in the mammalian olfactory system using a model nose",
+  "abstract": "TLDR (auto-generated, not the abstract): An electronic nose constructed using semiconductor transducers and incorporating design features suggested by the proposal can reproducibly discriminate between a wide variety of odours, and its properties show that discrimination in an olfactory system could be achieved without the use of highly specific receptors.",
+  "source": "semanticscholar"
+ },
+ "10.1016/j.snb.2012.01.074": {
+  "title": "Chemical gas sensor drift compensation using classifier ensembles",
+  "abstract": "TLDR (auto-generated, not the abstract): This work introduced a machine learning approach, namely an ensemble of classifiers, to solve a gas discrimination problem over extended periods of time with high accuracy rates and performs better than the baseline competing methods.",
+  "source": "semanticscholar"
+ },
+ "10.3390/s90705099": {
+  "title": "Applications and Advances in Electronic-Nose Technologies",
+  "abstract": "Electronic-nose devices have received considerable attention in the field of sensor technology during the past twenty years, largely due to the discovery of numerous applications derived from research in diverse fields of applied sciences. Recent applications of electronic nose technologies have come through advances in sensor design, material improvements, software innovations and progress in microcircuitry design and systems integration. The invention of many new e-nose sensor types and arrays, based on different detection principles and mechanisms, is closely correlated with the expansion of new applications. Electronic noses have provided a plethora of benefits to a variety of commercial industries, including the agricultural, biomedical, cosmetics, environmental, food, manufacturing, military, pharmaceutical, regulatory, and various scientific research fields. Advances have improved product attributes, uniformity, and consistency as a result of increases in quality control capabilities afforded by electronic-nose monitoring of all phases of industrial manufacturing processes. This paper is a review of the major electronic-nose technologies, developed since this specialized field was born and became prominent in the mid 1980s, and a summarization of some of the more important and useful applications that have been of greatest benefit to man.",
+  "source": "semanticscholar"
+ },
+ "10.1109/5.554205": {
+  "title": "An introduction to multisensor data fusion",
+  "abstract": "Multisensor data fusion is an emerging technology applied to Department of Defense (DoD) areas such as automated target recognition, battlefield surveillance, and guidance and control of autonomous vehicles, and to non-DoD applications such as monitoring of complex machinery, medical diagnosis, and smart buildings. Techniques for multisensor data fusion are drawn from a wide range of areas including artificial intelligence, pattern recognition, statistical estimation and other areas. This paper provides a tutorial on data fusion, introducing data fusion applications, process models, and identification of applicable techniques. Comments are made on the state-of-the-art in data fusion.",
+  "source": "openalex"
+ },
+ "10.1109/JSEN.2012.2192920": {
+  "title": "Signal and Data Processing for Machine Olfaction and Chemical Sensing: A Review",
+  "abstract": "Signal and data processing are essential elements in electronic noses as well as in most chemical sensing instruments. The multivariate responses obtained by chemical sensor arrays require signal and data processing to carry out the fundamental tasks of odor identification (classification), concentration estimation (regression), and grouping of similar odors (clustering). In the last decade, important advances have shown that proper processing can improve the robustness of the instruments against diverse perturbations, namely, environmental variables, background changes, drift, etc. This article reviews the advances made in recent years in signal and data processing for machine olfaction and chemical sensing.",
+  "source": "openalex"
+ },
+ "10.1016/j.aca.2011.03.025": {
+  "title": "On the increase of predictive performance with high-level data fusion",
+  "abstract": "TLDR (auto-generated, not the abstract): The predictive performance of high-level data fusion is investigated and fusion of a non-predictive classifier with a classifier that exhibits discriminative ability lead to increased predictive performance if the within group correlations are strong.",
+  "source": "semanticscholar"
+ },
+ "10.1016/S0893-6080(05)80023-1": {
+  "title": "Stacked generalization",
+  "abstract": "TLDR (auto-generated, not the abstract): The conclusion is that for almost any real-world generalization problem one should use some version of stacked generalization to minimize the generalization error rate.",
+  "source": "semanticscholar"
+ },
+ "10.1162/089976698300017197": {
+  "title": "Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms",
+  "abstract": "This article reviews five approximate statistical tests for determining whether one learning algorithm outperforms another on a particular learning task. These test sare compared experimentally to determine their probability of incorrectly detecting a difference when no difference exists (type I error). Two widely used statistical tests are shown to have high probability of type I error in certain situations and should never be used: a test for the difference of two proportions and a paired-differences t test based on taking several random train-test splits. A third test, a paired-differences t test based on 10-fold cross-validation, exhibits somewhat elevated probability of type I error. A fourth test, McNemar's test, is shown to have low type I error. The fifth test is a new test, 5 × 2 cv, based on five iterations of twofold cross-validation. Experiments show that this test also has acceptable type I error. The article also measures the power (ability to detect algorithm differences when they do exist) of these tests. The cross-validated t test is the most powerful. The 5×2 cv test is shown to be slightly more powerful than McNemar's test. The choice of the best test is determined by the computational cost of running the learning algorithm. For algorithms that can be executed only once, Mc-Nemar's test is the only test with acceptable type I error. For algorithms that can be executed 10 times, the 5 × 2 cv test is recommended, because it is slightly more powerful and because it directly measures variation due to the choice of training set.",
+  "source": "crossref"
+ },
+ "10.1016/j.foodchem.2017.02.149": {
+  "title": "Differentiation of Chinese robusta coffees according to species, using a combined electronic nose and tongue, with the aid of chemometrics",
+  "abstract": "TLDR (auto-generated, not the abstract): Electronic nose and tongue sensors and chemometric multivariate analysis were applied to characterize and classify 7 Chinese robusta coffee cultivars with different roasting degrees, and the PLSR model with a fusion data set was considered the best model for determining the quality parameters.",
+  "source": "semanticscholar"
+ },
+ "10.1016/0925-4005(96)80047-5": {
+  "title": "Fuzzy neural computing of coffee and tainted-water data from an electronic nose",
+  "abstract": "TLDR (auto-generated, not the abstract): The ability of a fuzzy neural network and a common back-propagation network to classify odour samples that were obtained by an electronic nose employing semiconducting oxide conductometric gas sensors are compared.",
+  "source": "semanticscholar"
+ },
+ "10.1109/icsens.2003.1278889": {
+  "title": "The novel EOS/sup 835/ electronic nose sniffs out the italian espresso coffee quality",
+  "abstract": "We present the novel electronic olfactory system EOS/sup 835/ manufactured by Sacmi Imola s.c.a.r.l. based on the University of Brescia electronic nose prototype Pico2. The EOS/sup 835/ is a reliable system equipped with very sensitive and stable thin-film metal oxide gas sensors. A new feature extraction algorithm (phase space integral) has been applied to improve the system classification performance. The electronic nose has been used to evaluate the quality of the Italian espresso coffee produced by Jolly Caffe S.p.A. in order to determine the best time for packaging.",
+  "source": "openalex"
+ },
+ "10.1109/isie.1997.651750": {
+  "title": "Quality control of coffee using the FOX4000 electronic nose",
+  "abstract": "This paper describes the steps required to validate a FOX4000 system. The first step in developing and validating the FOX4000 involves an initial feasibility study with method optimisation. Secondly, the stability of the discrimination with and without calibration is assessed. Finally, once the QC procedure and databanks are assessed, databanks from R&D can then be moved to QC. For this to occur, transferability of the database from R&D to the QC instrumentation needs to be tested and validated. These steps were shown using a combination of coffee as a case study with pure products as a known reference. One month of instrument stability (uncalibrated) of discrimination was shown. This stability was improved to six months of discrimination stability with the use of calibration materials. In the test, the reproducibility of three different instruments were shown to give the same results for the three coffees and pure products used in the six month analysis. In conclusion, the FOX4000 has been validated from R&D to the production shop floor for continuous use.",
+  "source": "openalex"
+ },
+ "10.1016/j.snb.2009.04.030": {
+  "title": "Classification of data from electronic nose using relevance vector machines",
+  "abstract": "TLDR (auto-generated, not the abstract): Experimental results show that the RVM method is an effective technique for the classification of electronic nose data and can provide similar classification accuracy with dramatically fewer kernel functions.",
+  "source": "semanticscholar"
+ },
+ "10.1016/0925-4005(91)80185-m": {
+  "title": "Detection of vapours and odours from a multisensor array using pattern recognition Part 1. Principal component and cluster analysis",
+  "abstract": "TLDR (auto-generated, not the abstract): Results show that the theoretically derived normalization of the data set substantially improves the classification of vapours and beverages and it is suggested that the separation may be improved further by employing other sensor types or processing techniques.",
+  "source": "semanticscholar"
+ },
+ "10.1016/j.aca.2007.02.013": {
+  "title": "Fingerprint developing of coffee flavor by gas chromatography–mass spectrometry and combined chemometrics methods",
+  "abstract": "TLDR (auto-generated, not the abstract): The developed chromatographic fingerprint was successfully used to differentiate coffee flavor from cocoa flavor and some little difference sample prepared with coffee flavor and cocoa flavor by both similarity comparison and principal component projection analysis.",
+  "source": "semanticscholar"
+ },
+ "10.1063/1.3156580": {
+  "title": "Electronic Nose for Quality Control of Colombian Coffee Through the Detection of Defects in “Cup Tests”",
+  "abstract": "This article presents a preliminary study on the analysis of samples of Colombian coffee for the detection and classification of defects (i.e. using “Cup Tests”), which was conducted in Almacafé quality control laboratory Almacafé in Cúcuta, Colombia). The results obtained show the application of an Electronic Nose (EN), called “A‐NOSE,” used in the coffee sector for the cupping tests. The results show that e‐nose technology can be a useful tool as quality control of coffee grain.",
+  "source": "openalex"
+ },
+ "10.1111/j.1750-3841.2012.02851.x": {
+  "title": "Evaluation of Coffee Roasting Degree by Using Electronic Nose and Artificial Neural Network for Off‐line Quality Control",
+  "abstract": "Abstract: An electronic nose (EN) based on an array of 10 metal oxide semiconductor sensors was used, jointly with an artificial neural network (ANN), to predict coffee roasting degree. The flavor release evolution and the main physicochemical modifications (weight loss, density, moisture content, and surface color: L *, a *), during the roasting process of coffee, were monitored at different cooking times (0, 6, 8, 10, 14, 19 min). Principal component analysis (PCA) was used to reduce the dimensionality of sensors data set (600 values per sensor). The selected PCs were used as ANN input variables. Two types of ANN methods (multilayer perceptron [MLP] and general regression neural network [GRNN]) were used in order to estimate the EN signals. For both neural networks the input values were represented by scores of sensors data set PCs, while the output values were the quality parameter at different roasting times. Both the ANNs were able to well predict coffee roasting degree, giving good prediction results for both roasting time and coffee quality parameters. In particular, GRNN showed the highest prediction reliability. Practical Application: Actually the evaluation of coffee roasting degree is mainly a manned operation, substantially based on the empirical final color observation. For this reason it requires well‐trained operators with a long professional skill. The coupling of e‐nose and artificial neural networks (ANNs) may represent an effective possibility to roasting process automation and to set up a more reproducible procedure for final coffee bean quality characterization.",
+  "source": "crossref"
+ },
+ "10.1007/s12161-017-0909-z": {
+  "title": "Evaluation of Industrial Roasting Degree of Coffee Beans by Using an Electronic Nose and a Stepwise Backward Selection of Predictors",
+  "abstract": null,
+  "source": "crossref"
+ },
+ "10.1109/tim.2012.2184011": {
+  "title": "Recognition of Coffee Using Differential Electronic Nose",
+  "abstract": "This paper studies the application of the differential electronic nose for the recognition of coffee, particularly the forgery of it, made by mixing two different quality coffee brands (the mediocre product and the high-quality coffee type), sold as the high-quality coffee brand. Since the beans are practically unrecognizable by the shape and visual inspection, the only solution to this problem is the application of the chemical analysis. The usually applied approach is the liquid chromatography. However, it is a laborious and expensive method, requiring special equipment and an experienced operator. In this paper, we propose the application of the differential electronic nose, relying its decision on the measurement of the coffee smell by the semiconductor gas sensors organized in the form of a matrix. We will show that differential electronic nose applying the special procedure of signal processing is of sufficient sensitivity for the recognition of the forgery of coffee and performs much better than the classical electronic nose (e-nose).",
+  "source": "openalex"
+ },
+ "10.3390/s21062016": {
+  "title": "Integrating a Low-Cost Electronic Nose and Machine Learning Modelling to Assess Coffee Aroma Profile and Intensity",
+  "abstract": "Aroma is one of the main attributes that consumers consider when appreciating and selecting a coffee; hence it is considered an important quality trait. However, the most common methods to assess aroma are based on expensive equipment or human senses through sensory evaluation, which is time-consuming and requires highly trained assessors to avoid subjectivity. Therefore, this study aimed to estimate the coffee intensity and aromas using a low-cost and portable electronic nose (e-nose) and machine learning modeling. For this purpose, triplicates of nine commercial coffee samples with different intensity levels were used for this study. Two machine learning models were developed based on artificial neural networks using the data from the e-nose as inputs to (i) classify the samples into low, medium, and high-intensity (Model 1) and (ii) to predict the relative abundance of 45 different aromas (Model 2). Results showed that it is possible to estimate the intensity of coffees with high accuracy (98%; Model 1), as well as to predict the specific aromas obtaining a high correlation coefficient (R = 0.99), and no under- or over-fitting of the models were detected. The proposed contactless, nondestructive, rapid, reliable, and low-cost method showed to be effective in evaluating volatile compounds in coffee, which is a potential technique to be applied within all stages of the production process to detect any undesirable characteristics on–time and ensure high-quality products.",
+  "source": "semanticscholar"
+ },
+ "10.3390/s17051007": {
+  "title": "A Framework for the Multi-Level Fusion of Electronic Nose and Electronic Tongue for Tea Quality Assessment",
+  "abstract": "Electronic nose (E-nose) and electronic tongue (E-tongue) can mimic the sensory perception of human smell and taste, and they are widely applied in tea quality evaluation by utilizing the fingerprints of response signals representing the overall information of tea samples. The intrinsic part of human perception is the fusion of sensors, as more information is provided comparing to the information from a single sensory organ. In this study, a framework for a multi-level fusion strategy of electronic nose and electronic tongue was proposed to enhance the tea quality prediction accuracies, by simultaneously modeling feature fusion and decision fusion. The procedure included feature-level fusion (fuse the time-domain based feature and frequency-domain based feature) and decision-level fusion (D-S evidence to combine the classification results from multiple classifiers). The experiments were conducted on tea samples collected from various tea providers with four grades. The large quantity made the quality assessment task very difficult, and the experimental results showed much better classification ability for the multi-level fusion system. The proposed algorithm could better represent the overall characteristics of tea samples for both odor and taste.",
+  "source": "semanticscholar"
+ },
+ "10.1016/b978-0-12-800243-8.00004-4": {
+  "title": "Coffee and the Electronic Nose",
+  "abstract": null,
+  "source": "crossref"
+ },
+ "10.3390/s150101354": {
+  "title": "Improving the Performance of an Electronic Nose by Wine Aroma Training to Distinguish between Drip Coffee and Canned Coffee",
+  "abstract": "Coffee aroma, with more than 600 components, is considered as one of the most complex food aromas. Although electronic noses have been successfully used for objective analysis and differentiation of total coffee aromas, it is difficult to use them to describe the specific features of coffee aroma (i.e., the type of smell). This is because data obtained by electronic noses are generally based on electrical resistance/current and samples are distinguished by principal component analysis. In this paper, we present an electronic nose that is capable of learning the wine related aromas using the aroma kit “Le Nez du Vin,” and the potential to describe coffee aroma in a similar manner comparable to how wine experts describe wine aroma. The results of our investigation showed that the aromas of three drip coffees were more similar to those of pine and honey in the aroma kit than to the aromas of three canned coffees. Conversely, the aromas of canned coffees were more similar to the kit coffee aroma. In addition, the aromatic patterns of coffees were different from those of green tea and red wine. Although further study is required to fit the data to human olfaction, the presented method and the use of vocabularies in aroma kits promise to enhance objective discrimination and description of aromas by electronic noses.",
+  "source": "semanticscholar"
+ },
+ "10.1111/joss.12104": {
+  "title": "Comparison of Results from Cupping and Descriptive Sensory Analysis of\n                    <scp>C</scp>\n                    olombian Brewed Coffee",
+  "abstract": "Abstract Sensory profiles of 13 coffee samples from the H uila R egion, C olombia were evaluated using two different sensory panels: a highly trained descriptive sensory panel and a group of Q ‐certified coffee cuppers. The trained panel consisted of six descriptive panelists who developed a lexicon to evaluate and then test the coffee samples. Four “cuppers” scored the same samples based on the S pecialty C offee A ssociation of A merica “cupping protocol.” In addition, cuppers generated tasting notes to characterize the different coffee samples. Data indicated little overlap between the two methods and a low relationship between the two different sets of terms. Moreover, tasting notes by cuppers indicate lack of agreement on the terms used to describe samples, with only four terms used by more than two assessors to describe a single coffee product out of a total of 59 terms used by the cuppers. The results indicate that the cupping method and sensory descriptive methods provide different information that cannot be used as an alternative to each other when describing coffee products. Instead, the results suggest that the two types of data may be used synergistically to evaluate the quality and the sensory properties to better characterize coffee samples. Practical Applications This research shows that “expert” coffee cupper data and trained sensory panel data cannot be used interchangeably. Thus, for research purposes sensory panel information is necessary for tracking changes in sensory properties.",
+  "source": "crossref"
+ },
+ "10.1111/joss.12226": {
+  "title": "Reproducibility of coffee quality cupping scores delivered by cupping centers in Ethiopia",
+  "abstract": "Abstract The reproducibility of cupping scores for 30 coffee samples from eastern, southern and southwestern origins in Ethiopia was evaluated by comparing absolute differences within and between nine cuppers, three Ethiopia Commodity Exchange (ECX) cupping centers (Jimma, Awassa, Dire Dawa) and three coffee origins. Additionally, the correlation between cupping scores of an exporter (ECX) and an importer (EFICO Agency SA) was evaluated based on 70 coffee samples from five different origins. Differences in ECX cupping score variability were generally observed for all studied quality attributes. Variability was higher between than within cuppers. Furthermore, particular high variable scores were observed for the Dire Dawa cupping center and for some attributes of the southwestern coffee origin. However, the average absolute difference for total cup quality was small (ca. 3 on a 100 scale), which indicates that cupping scores by the ECX are sufficiently reproducible to allow reliable coffee quality grading. However, no correlation was observed between cupping scores of the exporter and importer, which indicates a lack of interchangeability between grading data produced by both actors. Practical applications Testing and grading of the quality of green coffee beans by the Ethiopia Commodity Exchange cupping centers is fairly reliable. However, the exporter quality scores and grades can most likely not be used interchangeably with those of an importer.",
+  "source": "crossref"
+ },
+ "10.1039/9781782622437-00335": {
+  "title": "CHAPTER 13. Coffee Cupping: Evaluation of Green Coffee Quality",
+  "abstract": "Coffee cupping is the practice of evaluating the different aroma, taste and body characteristics of a coffee to determine coffee quality. As an international commodity and globally appreciated food product, how does the industry communicate taste and quality to others in distant lands? Companies and organizations have developed their own methods of cupping over time, which may work for them internally, but can cause miscommunication between parties in the market. There are commonalities in most methods of cupping, from roasting the samples through final numeric scoring of the coffee. This article gives background and instruction on one of the specialty coffee industry's main methodologies for cupping arabica coffee with description of general competencies of cuppers.",
+  "source": "semanticscholar"
+ },
+ "10.1007/s10068-017-0168-1": {
+  "title": "Discrimination and geographical origin prediction of washed specialty Bourbon coffee from different coffee growing areas in Rwanda by using electronic nose and electronic tongue",
+  "abstract": "TLDR (auto-generated, not the abstract): The study demonstrated that aroma could reliably be used to predict the geographical origin of coffee samples from different origins than their taste profile.",
+  "source": "semanticscholar"
+ }
+}

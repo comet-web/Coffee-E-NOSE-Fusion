@@ -1,0 +1,18 @@
+\begin{tabular}{lllccc}
+\toprule
+\textbf{Static parameter} & \textbf{Input scaling} & \textbf{Solver} & \textbf{LOO acc. (\%)} & \textbf{10$\times$5-fold acc. (\%)} & \textbf{Macro-F1} \\
+\midrule
+$\Delta$G = Gmax $-$ Gmin & none & SGD & 51.1 $\pm$ 6.5 & 55.5 $\pm$ 5.8 & 0.347 \\
+$\Delta$G = Gmax $-$ Gmin & none & Adam & 69.0 $\pm$ 1.7 & 69.8 $\pm$ 4.7 & 0.534 \\
+$\Delta$G = Gmax $-$ Gmin & mean-centring & SGD & 51.7 $\pm$ 7.5 & 54.7 $\pm$ 5.7 & 0.334 \\
+$\Delta$G = Gmax $-$ Gmin & mean-centring & Adam & 71.8 $\pm$ 3.6 & 70.7 $\pm$ 3.9 & 0.556 \\
+$\Delta$G = Gmax $-$ Gmin & autoscaling & SGD & 70.7 $\pm$ 3.4 & 73.4 $\pm$ 3.9 & 0.684 \\
+$\Delta$G = Gmax $-$ Gmin & autoscaling & Adam & 75.3 $\pm$ 2.0 & 74.0 $\pm$ 4.2 & 0.687 \\
+$\Delta$G / Gmin & none & SGD & 72.4 $\pm$ 3.0 & 73.3 $\pm$ 2.7 & 0.622 \\
+$\Delta$G / Gmin & none & Adam & 71.8 $\pm$ 5.5 & 73.8 $\pm$ 4.7 & 0.699 \\
+$\Delta$G / Gmin & mean-centring & SGD & 83.3 $\pm$ 1.0 & 79.1 $\pm$ 3.1 & 0.734 \\
+$\Delta$G / Gmin & mean-centring & Adam & 79.3 $\pm$ 1.7 & 78.3 $\pm$ 2.8 & 0.721 \\
+$\Delta$G / Gmin & autoscaling & SGD & 81.0 $\pm$ 1.7 & 80.0 $\pm$ 4.2 & 0.764 \\
+$\Delta$G / Gmin & autoscaling & Adam & 78.7 $\pm$ 2.6 & 79.7 $\pm$ 4.4 & 0.754 \\
+\bottomrule
+\end{tabular}

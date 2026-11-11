@@ -1,0 +1,18 @@
+{
+ "exp": "AB2_duration_full",
+ "config": {
+  "ablation": "AB2_duration",
+  "setting": "full",
+  "dur": "300"
+ },
+ "runtime_s": 39.5,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}

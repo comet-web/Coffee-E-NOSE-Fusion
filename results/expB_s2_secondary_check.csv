@@ -1,0 +1,4 @@
+model,s2_day6_acc_50way
+LR,0.32
+RF,0.38
+MLP64,0.32

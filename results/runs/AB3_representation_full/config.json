@@ -1,0 +1,17 @@
+{
+ "exp": "AB3_representation_full",
+ "config": {
+  "ablation": "AB3_representation",
+  "setting": "full"
+ },
+ "runtime_s": 35.52,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "exp": "expC_main",
+ "config": {
+  "target": "Total.Cup.Points tertiles",
+  "t1": 81.67,
+  "t2": 83.17,
+  "groups_main": "G2+G3"
+ },
+ "runtime_s": 5067.77,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "torch": "2.15.0+cpu"
+ }
+}
