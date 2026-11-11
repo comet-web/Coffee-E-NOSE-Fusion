@@ -8,21 +8,10 @@ __pycache__/
 # Data are downloaded from the original sources (see README), never committed
 data/
 
-# Local logs, archives and course documents
+# Local logs and archives
 logs/
 *.zip
 *.docx
 
 # Resumable-CV checkpoints (regenerated automatically when an experiment runs)
 results/runs/**/folds/
-
-# LaTeX build files
-*.aux
-*.log
-*.bbl
-*.blg
-*.out
-*.toc
-*.lof
-*.lot
-*.synctex.gz

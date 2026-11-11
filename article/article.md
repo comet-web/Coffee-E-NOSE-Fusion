@@ -1,12 +1,6 @@
 # Low-, Mid- and High-Level Data Fusion for Coffee Quality Assessment with a Low-Cost Electronic Nose: A Reproduction and Ablation Study on Public Data
 
-**Sai Aravind Chabala (23BDS075), Chevireddy Pothan Sai Reddy (23BDS017), Lingala Sahith Akash Manikanta (23BDS031)**
-
-Supervisor: Dr. Sunil C K, Assistant Professor
-
-Department of Computer Science and Engineering, Indian Institute of Information Technology Dharwad, India
-
-*Mini-project report written in the style of Rodríguez, Durán and Reyes, Sensors 2010, 10, 36–46 [18]. Draft of 11 November 2026.*
+*Written in the style of Rodríguez, Durán and Reyes, Sensors 2010, 10, 36–46 [18].*
 
 ---
 
@@ -440,15 +434,15 @@ This study reproduced the e-nose coffee-quality pipeline of [18] on its public d
 4. **Cupping metadata.** Non-sensory CQI data predicts cupping-quality tertiles only weakly (about 50%, chance 33%), whatever the fusion level. Low grades are characterised by cup defects, the very attribute an e-nose targets.
 5. **Class-level chemistry.** SmellNet's GC-MS priors must not be fused at the input level, because doing so leaks the label (100%). Used for training-time alignment, they give small but consistent gains for an MLP (+0.9 to +1.9 points).
 
-For future e-nose data sets, we recommend recording and releasing measurement-session information, randomising the order of samples across classes, correcting for drift [32], and reporting repeated cross-validation alongside LOO. Future work includes the larger SmellNet models (CNN, LSTM, Transformer) and, if the supervisor agrees, other ways of linking the cupping database to sensor data.
+For future e-nose data sets, we recommend recording and releasing measurement-session information, randomising the order of samples across classes, correcting for drift [32], and reporting repeated cross-validation alongside LOO. Future work includes the larger SmellNet models (CNN, LSTM, Transformer) and other ways of linking the cupping database to sensor data.
 
 ## Acknowledgments
 
-We thank our supervisor, Dr. Sunil C K, for guidance. We thank the authors of [18,19] for releasing the A-NOSE coffee recordings, the SmellNet team [20] for their data and code, and the maintainer of the CQI database [29].
+We thank the authors of [18,19] for releasing the A-NOSE coffee recordings, the SmellNet team [20] for their data and code, and the maintainer of the CQI database [29].
 
 ## Data and code availability
 
-All three sources are public: S1 (Mendeley Data, doi:10.17632/7spd6fpvyk.1), S2 (Hugging Face `DeweiFeng/SmellNet`, code `github.com/MIT-MI/SmellNet`) and S3 (`github.com/jldbc/coffee-quality-database`). The code, configurations, per-sample predictions and logs needed to reproduce every number in this article are in the project repository (`coffee-enose-fusion/`; see its README).
+All three sources are public: S1 (Mendeley Data, doi:10.17632/7spd6fpvyk.1), S2 (Hugging Face `DeweiFeng/SmellNet`, code `github.com/MIT-MI/SmellNet`) and S3 (`github.com/jldbc/coffee-quality-database`). The code, configurations and per-sample predictions needed to reproduce every number in this article are in this repository (see the README).
 
 ## References
 

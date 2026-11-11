@@ -1,9 +1,5 @@
 # Data Fusion and Ablation Study for Coffee Quality Assessment Using Electronic Nose Data
 
-**Mini Project-II, Department of Data Science and Artificial Intelligence, IIIT Dharwad**
-Sai Aravind Chabala · Chevireddy Pothan Sai Reddy · Lingala Sahith Akash Manikanta
-Supervisor: Dr. Sunil C K
-
 An electronic nose (e-nose) "smells" a sample with an array of gas sensors and lets a classifier
 decide what it is. This project:
 
@@ -38,7 +34,7 @@ Only three public data sources are used, and no samples are paired across data s
 | How reliable is LOO model selection on 58 recordings? | Choosing the best pipeline by LOO is **optimistic by about 4 points**, so repeated CV is reported alongside it. |
 
 <p align="center">
-  <img src="report/figures/fig_fusion_levels.png" width="85%" alt="Low-, mid- and high-level fusion"><br>
+  <img src="docs/images/fusion_levels.png" width="85%" alt="Low-, mid- and high-level fusion"><br>
   <em>The three fusion levels compared in Experiment A.</em>
 </p>
 
@@ -58,8 +54,7 @@ Only three public data sources are used, and no samples are paired across data s
 
 | File | What it is |
 |---|---|
-| `report/MiniProject2_Report.tex` | The project report (IIIT Dharwad template). See [Build the report](#5-build-the-report) for the PDF. |
-| `article/article.md` | A journal-style write-up of the same work. |
+| `article/article.md` | The full write-up: methods, results, discussion and references. |
 | `docs/data_notes.md` | Data checks, cleaning decisions and the discrepancies we found. |
 | `docs/literature_review.md` | Literature review; every reference was verified. |
 | `notebooks/` | Step-by-step notebooks: exploration (`01_*`) and one notebook per experiment (`02`–`07`). |
@@ -126,20 +121,7 @@ python -m src.utils.make_result_notebooks # notebooks/02-07_*.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/0*.ipynb
 ```
 
-No number in the article or the report is typed by hand. Every table is generated from the files in `results/`.
-
-### 5. Build the report
-
-```bash
-python -m src.utils.report_tables              # report/tables/*.tex
-python -m src.utils.report_figures             # report/figures/fig_fusion_levels.png
-python report/.tools/assemble_and_check.py     # template preamble + report/_body.tex, with static LaTeX checks
-python report/.tools/package_overleaf.py       # report/MiniProject2_Report_Overleaf.zip
-```
-
-Upload the zip to [Overleaf](https://www.overleaf.com) (New Project → Upload Project, compiler pdfLaTeX) and download the PDF. Locally, run `pdflatex`, `bibtex`, `pdflatex`, `pdflatex` on `report/MiniProject2_Report.tex`. Two helper checks are also available:
-- `report/.tools/simulate_pages.py` estimates the page count without a TeX installation.
-- `report/.tools/overlap_check.py` is a text-overlap self-check against the abstracts of the cited works.
+No number in the article is typed by hand. Every table is generated from the files in `results/`.
 
 ---
 
@@ -171,8 +153,7 @@ src/
 notebooks/                 01_eda_s1|s2|s3, 02-07 one per experiment, colab_expD_gpu
 results/                   result tables (*.csv), ablations/, figures/, runs/<exp>/
 article/                   article.md, tables.md, figures/
-report/                    LaTeX report: _body.tex, generated tables/ and figures/, .tools/, template
-docs/                      data notes, literature review, verified reference metadata, supervisor update
+docs/                      data notes, literature review, verified reference metadata, images/
 ```
 
 ## Main references
@@ -182,4 +163,4 @@ docs/                      data notes, literature review, verified reference met
 - D. Feng et al. SmellNet: A large-scale dataset for real-world smell recognition. ICLR 2026. [arXiv:2506.00239](https://arxiv.org/abs/2506.00239)
 - J. LeDoux. coffee-quality-database (Coffee Quality Institute review data), 2018. [GitHub](https://github.com/jldbc/coffee-quality-database)
 
-The full list of works we used, all verified, is in `report/Myreferences.bib` and `docs/literature_review.md`.
+The full list of verified references is in `docs/literature_review.md` and `docs/references_verified.csv`.
